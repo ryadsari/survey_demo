@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Sec Academy Survey</title>
+</head>
+<body>
+    <nav class="container" >
+        <h1 class="name">Sec Academy</h1>
+        <h2 class="menu"> <a href="./img/construction.jpg">Home</a></h2>
+        <h2 class="menu"> <a href="./img/construction.jpg">Courses</a></h2>
+        <h2 class="menu"> <a href="./img/construction.jpg">About</a></h2>
+    </nav>
+
+    <nav class="container2">
+        <form action="./img/thanks.jpg" method="GET">
+            <br>
+            <label for="fname">Name</label><br>
+            <input class="class1" type="text" id="fname" name="fname"placeholder="you username" required><br><br>
+            <label for="email">Email</label><br>
+            <input class="class1" type="email" id="email" name="email" placeholder="you email" required> <br><br>
+            <label for="age">Age</label><br>
+            <input class="class1" type="number" id="age" name="age" placeholder="you age" required> <br><br>
+            <label for="role">Which option best describes your current role?</label><br>
+            <select class="class1" type= id="role" name="role" required>>
+                <option selected disabled value>Selcet your current role</option>
+                <option value="Student">Student</option>
+                <option value="Full_job">Full time job</option>
+                <option value="Part_job">Part time job</option>
+                <option value="Freelancer">Freelancer</option>
+            </select><br><br>
+            
+            <label for="recommendation">Would you recommend Sec Academy to a friend ?</label><br>
+            <label ><input  type="radio" name="recommendation" id="Definitely">Definitely</label><br>
+            <label ><input  type="radio" name="recommendation" id="Maybe">Maybe</label><br>
+            <label ><input  type="radio" name="recommendation" id="No">No</label><br><br>
+            <br>
+
+            <label for="like">What do you like the most in Sec Academy ?</label><br>
+            <select class="class1" type= id="like" name="like" required>>
+                <option selected disabled value>Selcet an option</option>
+                <option value="Courses">Courses</option>
+                <option value="Articles">Articles</option>
+                <option value="CTFs">CTFs</option>
+                <option value="Mentor">Mentor Program</option>
+            </select><br><br>
+
+            <label for="improve">Would you liek us to improve ?</label><br>
+            <label ><input  type="checkbox" name="improve" id="Courses">Courses</label><br>
+            <label ><input  type="checkbox" name="improve" id="Articles">Articles</label><br>
+            <label ><input  type="checkbox" name="improve" id="CTFs">CTFs</label><br>
+            <label ><input  type="checkbox" name="improve" id="Mentor Program">Mentor Program</label><br><br>
+            <br>
+
+            
+            <label for="comment">Any comments or suggestions?</label><br>
+            <label> <textarea  class="comment" id="comment" placeholder="Enter your comment hre..." >  </textarea>
+            
+            </label><br><br>
+            
+            <input type="submit" value="Submit"> 
+        </form>
+    </nav>
+</body>
+</html>
